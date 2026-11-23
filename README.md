@@ -9,6 +9,7 @@
 ![Vue](https://img.shields.io/badge/Vue-3-4FC08D?logo=vuedotjs&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)
 
+![License MIT](https://img.shields.io/badge/license-MIT-green)
 </div>
 
 > **Коротко.** Небольшой сервис учёта личных средств: пользователь регистрируется,
@@ -212,8 +213,7 @@ composer run dev            # serve + queue:listen + pail + vite
   `php artisan serve`; Nginx в compose нет.
 - **Vite dev server на 5173 не поднимается автоматически** — compose делает
   `npm run build`, а не `npm run dev`. Порт проброшен, но обслуживать его нечему.
-- **Файла `LICENSE` нет.** `composer.json` указывает MIT как метаданные скелета
-  Laravel, но отдельного файла лицензии в репозитории нет.
+- **Лицензия — MIT** (`LICENSE`); `composer.json` всё ещё несёт MIT из скелета Laravel.
 - **В корне лежит пустой файл `git`** — случайный артефакт, к сборке отношения не имеет.
 
 ## Документация
